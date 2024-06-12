@@ -1,0 +1,55 @@
+.office-section {
+    background-image: url(../images/home-office.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0;
+}
+
+.office-section-wrapper {}
+
+.office-content {}
+
+.office-title {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.office-text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.office-link {
+    text-align: center;
+
+    a {
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width:600px) {
+    .office-section {
+        padding: 120px 0;
+    }
+}
+
+@media (min-width:900px) {
+    .office-section {
+        padding: 174px 0;
+    }
+}
